@@ -1,6 +1,6 @@
-# DLFPS Hackathon - Shriteq 2024
+# SachAI
 
-Welcome to the **DLFPS Hackathon Project** for **Shriteq 2024**! This repository contains our solution to combat **misinformation and fake news** using advanced tools and datasets. The project aligns with the challenge of detecting and mitigating misinformation across various media forms. 
+Welcome to the **DLFPS Hackathon Project - SachAI** for **Shriteq 2024**! This repository contains our solution to combat **misinformation and fake news** using advanced tools and datasets. The project aligns with the challenge of detecting and mitigating misinformation across various media forms. 
 
 ## Table of Contents
 - [Introduction](#introduction)  
@@ -28,10 +28,8 @@ This work is part of our participation in the **Shriteq Hackathon 2024**, where 
 ## Tech Stack
 - **Frontend**: HTML, CSS, JavaScript  
 - **Backend**: Python, Flask/Node.js  
-- **AI/ML Models**: TensorFlow, OpenCV, Hugging Face datasets  
-- **Database**: SQLite / MongoDB  
-- **Browser Extension**: JavaScript, Manifest v3  
-- **API Integration**: REST API for credibility verification  
+- **AI/ML Models**: TensorFlow, OpenCV, Hugging Face datasets
+- **Browser Extension**: JavaScript, Manifest v3 
 
 ## Installation
 To set up the project on your local machine:
