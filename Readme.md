@@ -93,23 +93,6 @@ To set up the project on your local machine:
    - Install the extension by navigating to the `extension/` folder and loading it as an **unpacked extension** in your browser.  
    - When browsing news websites, the extension will highlight links with questionable content.
 
-4. **API Usage for Credibility Verification**:  
-   - Use the **REST API** to verify the credibility of articles programmatically.
-   - Example API request:
-     ```bash
-     curl -X POST https://your-api-endpoint.com/verify \
-     -H "Content-Type: application/json" \
-     -d '{"url": "https://example.com/news-article"}'
-     ```
-   - The API responds with metadata and a credibility score:
-     ```json
-     {
-       "title": "Example News Article",
-       "credibility_score": 65,
-       "sentiment": "Neutral"
-     }
-     ```
-
 ## Dataset
 We leverage the **Fake Image Dataset** from:
 - **[Hugging Face (InfImagine)](https://huggingface.co/)**  
