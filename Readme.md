@@ -56,9 +56,9 @@ The following libraries and tools are required to run the project:
 - tf_keras  
 - tokenizers  
 
-To install these dependencies, run:
-```bash
-pip install -r requirements.txt
+- To install these dependencies, run:
+   ```bash
+   pip install -r requirements.txt
 
 ## Installation
 To set up the project on your local machine:
