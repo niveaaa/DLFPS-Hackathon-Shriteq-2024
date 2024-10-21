@@ -40,3 +40,51 @@ To set up the project on your local machine:
    ```bash
    git clone https://github.com/niveaaa/DLFPS-Hackathon-Shriteq-2024.git
    cd DLFPS-Hackathon-Shriteq-2024
+
+1. **Install Dependencies:**
+   ```bash
+   pip install -r requirements.txt  # For Python dependencies
+   npm install  # For JavaScript dependencies
+
+1. **Clone the Repository:**
+   ```bash
+   git clone https://github.com/niveaaa/DLFPS-Hackathon-Shriteq-2024.git
+   cd DLFPS-Hackathon-Shriteq-2024
+
+## Usage
+1. **Detect Fake Images**:  
+   - Navigate to the tool’s interface and upload an image to verify its authenticity.  
+   - The system will return a **"Real"** or **"Fake"** label based on the AI model's prediction.
+
+2. **Analyze News Articles**:  
+   - Enter a news article URL in the provided input field.  
+   - The system will perform **sentiment analysis** and generate a **credibility score**.  
+   - It flags articles with suspicious or biased content to alert users.
+
+3. **Browser Extension**:  
+   - Install the extension by navigating to the `extension/` folder and loading it as an **unpacked extension** in your browser.  
+   - When browsing news websites, the extension will highlight links with questionable content.
+
+4. **API Usage for Credibility Verification**:  
+   - Use the **REST API** to verify the credibility of articles programmatically.
+   - Example API request:
+     ```bash
+     curl -X POST https://your-api-endpoint.com/verify \
+     -H "Content-Type: application/json" \
+     -d '{"url": "https://example.com/news-article"}'
+     ```
+   - The API responds with metadata and a credibility score:
+     ```json
+     {
+       "title": "Example News Article",
+       "credibility_score": 65,
+       "sentiment": "Neutral"
+     }
+     ```
+
+## Dataset
+We leverage the **Fake Image Dataset** from:
+- **[Hugging Face (InfImagine)](https://huggingface.co/)**  
+- **[OpenXLab](https://openxlab.org/)**  
+
+These datasets contain real and fake images with corresponding metadata, which help in training, testing, and evaluating the models. Feel free to explore the datasets to understand how the detection model works.
