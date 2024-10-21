@@ -20,7 +20,7 @@ def preprocess_image(image):
 def predict_image(image):
     image = preprocess_image(image)
     prediction = model.predict(image)[0][0]  # Extract prediction value
-    label = "AI Generated" if prediction < 0.5 else "Real"
+    label = "Real" if prediction < 0.5 else "AI Generated"
     confidence = round(abs(prediction - 0.5) * 2, 2)  # Confidence in [0, 1] range
     return label, confidence
 
