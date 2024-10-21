@@ -31,6 +31,35 @@ This work is part of our participation in the **Shriteq Hackathon 2024**, where 
 - **AI/ML Models**: TensorFlow, OpenCV, Hugging Face datasets
 - **Browser Extension**: JavaScript, Manifest v3 
 
+## Dependencies
+The following libraries and tools are required to run the project:
+
+- deepface  
+- deeplake  
+- dlib  
+- face-recognition  
+- face-recognition-models  
+- huggingface-hub  
+- kaggle  
+- keras  
+- keras-models  
+- Keras-Preprocessing  
+- np_utils  
+- numpy  
+- pandas  
+- pillow  
+- scikit-image  
+- scikit-learn  
+- streamlit  
+- tensorflow  
+- tf-explain  
+- tf_keras  
+- tokenizers  
+
+To install these dependencies, run:
+```bash
+pip install -r requirements.txt
+
 ## Installation
 To set up the project on your local machine:
 
